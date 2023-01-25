@@ -16,7 +16,7 @@ void insertion_sort_list(listint_t **list)
 	if (!list)
 		return;
 
-	prt = *list;
+	ptr = *list;
 
 	while (ptr)
 	{
